@@ -12,37 +12,26 @@
                 <div class="container">
                     <div class="card" style="width: 30rem;">
                         <div class="card-body">
-                            <h5 class="card-title">This is some title</h5>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry.
-                                Lorem Ipsum
-                                has
-                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                                took a
-                                galley of
-                                type
-                                and scrambled it to make a type specimen book. It has survived not only five centuri
+                            <h5 class="card-title">Lightheadedness, dizziness and weakness</h5>
+                            <p class="card-text">I felt very lightheaded suddenly after I came back from college. I laid
+                                on
+                                my bed in order to get some relief, but it felt as if the room was spinning. My feet
+                                felt
+                                very cold, but my head felt very hot. I felt like I would soon develop a fever.
                             </p>
                             <h6 class="card-subtitle mb-2">Doctor's Comment</h6>
-                            <h6 class="card-subtitle mb-2 text-muted">"Lorem ipsum dolor sit amet, consectetur
-                                adipiscing
-                                elit. Donec
-                                nisi
-                                massa, semper tincidunt commodo nec, vulputate nec eros. Proin dictu</h6>
+                            <h6 class="card-subtitle mb-2 text-muted">"Vertigo is a condition in which people feel
+                                dizziness
+                                and feel like the room is spinning. It often happens when there are seasonal changes. I
+                                would advise you to take some paracetamol and get a day or two of bed rest</h6>
                         </div>
                     </div>
 
                     <div class="card" style="width: 30rem;">
                         <div class="card-body">
-                            <h5 class="card-title">This is some titlef asdfasdf asdfads</h5>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry.
-                                Lorem Ipsum
-                                has
-                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                                took a
-                                galley of
-                                type
+                            <h5 class="card-title">Itchy scalp and flaky skin for a week now</h5>
+                            <p class="card-text">It often happens when there are seasonal changes. I
+                                would advise you to take some paracetamol and get a day or two of bed rest
                                 and scrambled it to make a type specimen book. It has survived not only five centuri
                             </p>
 
@@ -55,7 +44,7 @@
                     </div>
                     <div class="card" style="width: 30rem;">
                         <div class="card-body">
-                            <h5 class="card-title">This is some title</h5>
+                            <h5 class="card-title">Mysterious lesion below my left ear</h5>
                             <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
                                 industry.
                                 Lorem Ipsum
@@ -81,21 +70,20 @@
                 <form [formGroup]="userForm">
 
                     <div class="form-group">
-                        <label for="fullname">Full Name</label>
-                        <input formControlName="fullName" type="text" class="form-control" placeholder="First name"
-                            formCo>
+                        <label for="fullname">Title</label>
+                        <input formControlName="fullName" type="text" class="form-control" placeholder="Title " formCo>
                     </div>
 
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
+                        <label for="exampleInputEmail1">Description</label>
                         <input formControlName="email" type="email" class="form-control" id="exampleInputEmail1"
-                            aria-describedby="emailHelp" placeholder="Enter email">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                            else.</small>
+                            aria-describedby="emailHelp" placeholder="Enter Description">
+                        <small id="emailHelp" class="form-text text-muted"></small>
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        <label for="exampleInputPassword1">Doctor's comment</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1"
+                            placeholder="Enter Doctor's comment">
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>

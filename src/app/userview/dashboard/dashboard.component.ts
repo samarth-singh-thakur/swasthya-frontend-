@@ -19,13 +19,13 @@ export class DashboardComponent {
       data: {
         datasets: [{
           label: "This is your scorecard",
-          data: [0, 20, 40, 50, 10, 10, 22],
+          data: [0, 20, 40, 50, 40, 35, 45, 50],
           backgroundColor: "rgb(115 185 243 / 85%)",
           borderColor: "#000",
           fill: false,
 
         }],
-        labels: ['January 2019', 'February 2019', 'March 2019', 'April 2019', '32 ']
+        labels: ['January 2019', 'February 2019', 'March 2019', 'April 2019', 'May 2019', 'June 2019']
       },
       options: {
         scales: {
