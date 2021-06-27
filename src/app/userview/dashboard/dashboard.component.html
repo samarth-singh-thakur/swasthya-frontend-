@@ -1,12 +1,30 @@
-<h3>
-    Aayushi your last assessment socre is 100 🍎
-    <small class="text-muted">Keep Going</small>
-</h3>
-
 <div class="container">
-    <div style="width:100%;">
-        <canvas id="myChart" width="700" height="250" #mychart></canvas>
+
+
+    <a class="nav-link " href="#" [routerLink]="['healthjournal']">Health Journal</a>
+
+
+
+    <div class="jumbotron vertical-center">
+
+        <div class="container">
+            <h3 justify-content-center>
+                Aayushi your last assessment socre is 100 🍎
+                <small class="text-muted">Keep Going</small>
+            </h3>
+
+            <div class="container">
+                <div style="width:100%;">
+                    <canvas id="myChart" width="400" height="100" #mychart></canvas>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="col-md-12 text-center">
+                <button type="button" class="btn btn-success" [routerLink]="['newassessment']">+ Add New
+                    Asssessment</button>
+
+            </div>
+        </div>
     </div>
 </div>
-
-<button type="button" class="btn btn-success" [routerLink]="['newassessment']">+ Add New Asssessment</button>
