@@ -5,7 +5,7 @@ import { SignupWindowComponent } from './signup-window/signup-window.component';
 import { UserComponent } from './user/user.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { DoctorComponent } from './doctor/doctor.component';
-const routes: Routes = [{ path: 'signup/asuser', component: UserComponent }, { path: 'signup', component: SignupWindowComponent }];
+const routes: Routes = [{ path: 'signup', component: SignupWindowComponent }];
 @NgModule({
   declarations: [
     SignupWindowComponent,

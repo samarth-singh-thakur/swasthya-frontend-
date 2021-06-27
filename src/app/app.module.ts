@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { SignupModule } from './signup/signup.module';
 import { UserviewModule } from './userview/userview.module';
+import { LoginModule } from './login/login.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,6 +20,7 @@ import { UserviewModule } from './userview/userview.module';
     ReactiveFormsModule,
 
     SignupModule,
+    LoginModule,
     UserviewModule,
 
     AppRoutingModule

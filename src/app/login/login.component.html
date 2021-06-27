@@ -6,7 +6,7 @@
                 <div class="card-body">
                     <h5 class="card-title">SignUp as a doctor</h5>
                     <p class="card-text">AI assist to prescribe drugs and view health journal of users.</p>
-                    <a (click)="doctor()" class="btn btn-success">SignUp</a>
+                    <a (click)="doctor()" class="btn btn-success">Signin</a>
                 </div>
             </div>
         </div>
@@ -16,7 +16,7 @@
                 <div class="card-body">
                     <h5 class="card-title">SignUp as a user</h5>
                     <p class="card-text">Manage your health jounal and keep track of your fitness.</p>
-                    <a (click)="user()" class="btn btn-primary">SignUp</a>
+                    <a (click)="user()" class="btn btn-primary">Signin</a>
                 </div>
             </div>
         </div>
@@ -27,10 +27,6 @@
     <hr>
     <h1>Signing up as user</h1>
     <form [formGroup]="userForm">
-        <div class="form-group">
-            <label for="fullname">Full Name</label>
-            <input formControlName="fullName" type="text" class="form-control" placeholder="First name" formCo>
-        </div>
 
         <div class="form-group">
             <label for="exampleInputEmail1">Email address</label>
@@ -50,11 +46,6 @@
     <hr>
     <h1>Signing up as Doctor</h1>
     <form [formGroup]="userForm">
-
-        <div class="form-group">
-            <label for="fullname">Full Name</label>
-            <input formControlName="fullName" type="text" class="form-control" placeholder="First name" formCo>
-        </div>
 
         <div class="form-group">
             <label for="exampleInputEmail1">Email address</label>

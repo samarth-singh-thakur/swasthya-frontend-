@@ -1,7 +1,5 @@
 <div class="card">
-    <div class="card-header">
-        {{pageTitle}}
-    </div>
+
     <div class="card-body">
         <div class="container-fluid">
             <div class="text-center">
@@ -19,5 +17,11 @@
 
             </div>
         </div>
+    </div>
+    <div class="p-5 d-flex justify-content-center ">
+
+        <button type="button" class=" btn btn-primary btn-lg " [routerLink]="['signin']">Sign In</button>
+
+        <button type=" button" class=" btn btn-secondary btn-lg" [routerLink]="['signup']">Sign Up</button>
     </div>
 </div>
